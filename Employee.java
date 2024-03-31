@@ -29,6 +29,8 @@ public class Employee {
     public static void main(String[] args) {
         Employee emp = new Employee("Amit", 1001, 50000.0);
         emp.displayDetails();
+        DevOpsEngineer devOps = new DevOpsEngineer("Arun", 1002, 60000.0, 5000.0);
+        devOps.displayDetails();
 
         System.out.println();
     }
